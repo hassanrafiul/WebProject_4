@@ -10,14 +10,14 @@
 </head>
 
 <body>
-    <header>
+    <header class="nav-header">
 
         <nav class="main--nav">
 
             <div class="main--nav-div1">
 
                 <figure class="main--nav-logo">
-                    <img class="main--nav-logo-img" src="" alt="Compant Logo.">
+                    <img class="main--nav-logo-img" src="" alt="Company Logo.">
                 </figure>
 
                 <h1 class="main--nav-header">Joi Bangla</h1>
@@ -25,13 +25,12 @@
             </div>
 
             <div class="main--nav-div2">
-
-                <ul>
-                    <li><a href="./home.html">Home</a></li>
-                    <li><a href="./part1.html">Part-I</a></li>
-                    <li><a href="./part2.html">Part-II</a></li>
-                    <li><a href="./part3.html">Part-III</a></li>
-                    <li><a href="./gallery.html">Gallery</a></li>
+                <ul class="main--nav-items">
+                    <li class="main--nav-links"><a class="main--nav-tags" href="./home.html">Home</a></li>
+                    <li class="main--nav-links"><a class="main--nav-tags" href="./part1.html">Part-I</a></li>
+                    <li class="main--nav-links"><a class="main--nav-tags" href="./part2.html">Part-II</a></li>
+                    <li class="main--nav-links"><a class="main--nav-tags" href="./part3.html">Part-III</a></li>
+                    <li class="main--nav-links"><a class="main--nav-tags" href="./gallery.html">Gallery</a></li>
                 </ul>
             </div>
 
@@ -40,15 +39,23 @@
         <section class="main--header-section">
 
             <div class="main--header-section-div1">
+                
                 <h1 class="main--header-section-h1">Independence of Bangladesh!</h1>
-                <h2 class="main--header-section-h2">The war between East-Pakistan and West-Pakistan</h2>
-                <a class="main--header-section-link" href="#">Partition Introduction!</a>
-                <a class="main--header-section-link" href="#">Language Movement!</a>
+
+                <h2 class="main--header-section-h2">The war between East-Pakistan and West-Pakistan.</h2>
+                
+                <div class="main--header-section-tags-wrapper">
+                    
+                    <a class="main--header-section-link" href="#introduction">Partition Introduction!</a>
+                    <a class="main--header-section-link" href="#language">Language Movement!</a>
+
+                </div>
             </div>
 
         </section>
 
     </header>
+
     <aside class="main--aside-left">
         left
 
@@ -56,7 +63,7 @@
 
     <main>
 
-        <section class="main--section-part1">
+        <section id="introduction" class="main--section-part1">
 
             <h1 class="main--section-part1-h">
                 British Partions the East South Asia.
@@ -112,7 +119,7 @@
 
         </section>
 
-        <section class="main--section-part2">
+        <section id="language" class="main--section-part2">
             <h1 class="main--section-part2-h">
                 After British Partion East Pakistan rebles to speak their own mother tongue.
             </h1>
@@ -142,16 +149,23 @@
 
     </aside>
 
-    <footer>
-        <h1 class="footer-h1">Joi Bangla: A website about the war between a nation.</h1>
-        <ul>
-            <li><a href="./home.html">Home</a></li>
-            <li><a href="./part1.html">Part-I</a></li>
-            <li><a href="./part2.html">Part-II</a></li>
-            <li><a href="./part3.html">Part-III</a></li>
-            <li><a href="./gallery.html">Gallery</a></li>
-        </ul>
-        <p class="footer--p">&copy; Rafiul Hassan Productions. All Rights Reserved.</p>
+    <footer class="main--footer">
+
+        <div class="main--footer-wrapper">
+
+            
+            <h1 class="footer-h1">Joi Bangla: A website about the war between a nation.</h1>
+            <hr>
+            
+            <ul class="footer-items">
+                <li class="footer-links"><a class="footer-tags" href="./home.html">Home</a></li>
+                <li class="footer-links"><a class="footer-tags" href="./part1.html">Part-I</a></li>
+                <li class="footer-links"><a class="footer-tags" href="./part2.html">Part-II</a></li>
+                <li class="footer-links"><a class="footer-tags" href="./part3.html">Part-III</a></li>
+                <li class="footer-links"><a class="footer-tags" href="./gallery.html">Gallery</a></li>
+            </ul>
+            <p class="footer--p">&copy; Rafiul Hassan Productions. All Rights Reserved.</p>
+        </div>
 
     </footer>
 </body>
