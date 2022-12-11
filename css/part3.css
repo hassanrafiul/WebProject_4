@@ -73,7 +73,7 @@ body{
 }
 
 .main--header-section{
-    background-image:  url(../assets/partition.jpg);
+    background-image:  url(../assets/mukti-bahini-1971.jpg);
     
     background-size: cover ;
     background-position: top;
@@ -114,6 +114,7 @@ body{
     padding: 4%;
     color: var(--font-color);
     font-size: 0.8em;
+    text-decoration: none;
     
 }
 
@@ -121,6 +122,22 @@ body{
     background-color: var(--nav-button-hover-green-color);
 
 }
+
+.main{
+    background-color: var(--header-background-color);
+}
+.main--section-part1{
+    max-width: 75rem;
+    margin: 0 auto;
+    background-color: var(--font-color);
+    font-size: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    line-height: 1.75rem;
+}
+
 
 .main--footer{
     background-color: var(--nav-background-green-color);
