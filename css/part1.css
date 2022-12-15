@@ -93,11 +93,53 @@
 
 .main--header-section-h1{
     font-size: 2em;
+    animation: moveInLeft 3s ease-out;
 }
+@keyframes moveInLeft {
+                0% {
+                    opacity: 0;
+                    transform: translateX(-100px);
+                }
+
+                80% {
+                    transform: translate(5px);
+                }
+
+                100% {
+                    opacity: 1;
+                    transform: translate(0);
+                }
+            }
 
 .main--header-section-h2{
     font-size: 1.4em;
     margin-bottom: 1.25rem;
+    animation: moveInRight 3s ease-out;
+    
+}
+
+@keyframes moveInRight {
+                0% {
+                    opacity: 0;
+                    transform: translateX(100px);
+                }
+
+                80% {
+                    transform: translate(-5px);
+                }
+
+                100% {
+                    opacity: 1;
+                    transform: translate(0);
+                }
+            }
+.main--header-section-link{
+    text-decoration: none;
+    background-color: var(--nav-background-green-color);
+    padding: 4%;
+    color: var(--font-color);
+    font-size: 0.8em;
+    
     
 }
 
